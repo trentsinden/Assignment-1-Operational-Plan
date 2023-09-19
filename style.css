@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mooli', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* SCROLLBAR */
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 25px;
+    background-color: #ff6a76;
+}
+
+::-webkit-scrollbar-thumb:active {
+    background-color: #4570b4;
+}
+
+/* LANDING PAGE */
+
+#landing-page {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.landing-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing-title {
+    font-size: 3rem;
+}
+
+.landing-img {
+    height: 80vh;
+}
+
+.landing-button {
+    background-color: #4570b4;
+    border-radius: 10px;
+    color: white;
+    padding: 20px 34px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin-top: 2em;
+}
+
+.landing-button:hover {
+    background-color: #ff6a76;
+    cursor: pointer;
+}
+
+/* INTRODUCTION */
+
+#intro-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ff6a76;
+    padding: 0 8em
+}
+
+.intro-text {
+    margin-right: 1.5em;
+    line-height: 2em;
+}
+
+.intro-image {
+    margin-left: 1.5em;
+}
+
+.intro-img {
+    height: 60vh;
+    border-radius: 25px;
+}
+
+.intro-heading {
+    text-align: center;
+}
+
+/* STANDARDS */
+
+#standards-page {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.standards-heading {
+    font-size: 2rem;
+}
+
+.standards-subheading {
+    font-size: 1.1rem
+}
+
+.standards-itil-list, .standards-hdi-list {
+    list-style-type: none;
+    margin: 2em 0;
+}
+
+.standards-itil-list-item, .standards-hdi-list-item {
+    margin: 1em 0;
+    padding: 1em;
+    background-color: #4570b4;
+    color: white;
+    border-radius: 25px;
+}
+
+.standards-itil-list-item:hover, .standards-hdi-list-item:hover {
+    background-color: #ff6a76;
+}
+
+/* MISSION AND VISION */
+
+#mission-page {
+    height: 110vh;
+    background-color: #4570b4;
+    color: white;
+}
+
+.mission-container, .vision-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mission-text, .vision-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.mission-heading, .vision-heading {
+    font-size: 3rem;
+    margin-bottom: 0.5em;
+}
+
+.mission-img {
+    height: 60vh;
+}
+
+.vision-img {
+    height: 40vh;
+}
+
+.vision-list {
+    text-align: left;
+    margin-top: 1em;
+}
+
+.vision-list-item {
+    margin: 1em 0;
+}
