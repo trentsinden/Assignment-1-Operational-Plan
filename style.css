@@ -41,10 +41,12 @@
 
 .landing-title {
     font-size: 3rem;
+    text-align: center;
+    margin-bottom: 0.5em;
 }
 
 .landing-img {
-    height: 80vh;
+    height: 60vh;
 }
 
 .landing-button {
@@ -86,10 +88,6 @@
 .intro-img {
     height: 60vh;
     border-radius: 25px;
-}
-
-.intro-heading {
-    text-align: center;
 }
 
 /* STANDARDS */
@@ -159,11 +157,52 @@
     height: 40vh;
 }
 
-.vision-list {
+.vision-list, .mission-list {
     text-align: left;
     margin-top: 1em;
 }
 
-.vision-list-item {
+.vision-list-item, .mission-list-item, .processes-list-item {
     margin: 1em 0;
 }
+
+/* Processes */
+#processes-page {
+    margin: 3em 0 0;
+    height: 100vh;
+}
+
+.processes-heading {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.processes-items {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  
+  .processes-item {
+    width: 33.33%;
+    background-color: #4570b4;
+    text-align: center;
+    margin: 2.5rem 1.5rem;
+    padding: 2em;
+    color: white;
+    border-radius: 25px;
+  }
+
+  .processes-item h4 {
+    font-size: 1.25rem;
+    margin: 0.5rem 0;
+  }
+  
+  .processes-item i {
+    color: #ff6a76;
+    font-size: 2.5rem;
+  }
+
+  .processes-list {
+    text-align: left;
+  }
