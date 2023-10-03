@@ -162,22 +162,27 @@
     margin-top: 1em;
 }
 
-.vision-list-item, .mission-list-item, .processes-list-item {
+.vision-list-item, .mission-list-item, .processes-list-item, .resources-list-item {
     margin: 1em 0;
 }
 
 /* Processes */
-#processes-page {
+#processes-page, #resources-page {
     margin: 3em 0 0;
-    height: 100vh;
 }
 
-.processes-heading {
+.processes-heading, .resources-heading {
     text-align: center;
     font-size: 2rem;
 }
 
-.processes-items {
+.processes-heading p, .resources-heading p{
+    margin: 0.5em 15em;
+    font-size: 1.2rem;
+    line-height: 1.7em;
+  }
+
+.processes-items, .resources-items {
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -193,16 +198,36 @@
     border-radius: 25px;
   }
 
-  .processes-item h4 {
+  .processes-item h4, .resources-items h4 {
     font-size: 1.25rem;
     margin: 0.5rem 0;
   }
   
-  .processes-item i {
+  .processes-item i, .resources-items i {
     color: #ff6a76;
     font-size: 2.5rem;
   }
 
-  .processes-list {
+  .processes-list, .resources-list {
     text-align: left;
+  }
+
+  /* Resources */
+  #resources-page {
+    background-color: #4570b4;
+}
+
+  .resources-heading {
+    padding-top: 1.5em;
+    color: white;
+  }
+
+  .resources-item {
+    width: 25%;
+    background-color: white;
+    text-align: center;
+    margin: 2.5rem 1.5rem;
+    padding: 2em;
+    color: #4570b4;
+    border-radius: 25px;
   }
