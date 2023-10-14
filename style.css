@@ -72,7 +72,6 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #ff6a76;
     padding: 0 8em
 }
 
@@ -128,8 +127,6 @@
 
 #mission-page {
     height: 110vh;
-    background-color: #4570b4;
-    color: white;
 }
 
 .mission-container, .vision-container {
@@ -162,72 +159,47 @@
     margin-top: 1em;
 }
 
-.vision-list-item, .mission-list-item, .processes-list-item, .resources-list-item {
+.vision-list-item, .mission-list-item {
     margin: 1em 0;
 }
 
-/* Processes */
-#processes-page, #resources-page {
-    margin: 3em 0 0;
+/* Processes*/
+
+#employee-satisfaction, #resources, #customer-satisfaction {
+    margin-top: 7em;
 }
 
-.processes-heading, .resources-heading {
-    text-align: center;
-    font-size: 2rem;
-}
-
-.processes-heading p, .resources-heading p{
-    margin: 0.5em 15em;
+#employee-satisfaction p, #resources p, #customer-satisfaction p{
     font-size: 1.2rem;
-    line-height: 1.7em;
-  }
-
-.processes-items, .resources-items {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-  }
-  
-  .processes-item {
-    width: 33.33%;
-    background-color: #4570b4;
-    text-align: center;
-    margin: 2.5rem 1.5rem;
-    padding: 2em;
-    color: white;
-    border-radius: 25px;
-  }
-
-  .processes-item h4, .resources-items h4 {
-    font-size: 1.25rem;
-    margin: 0.5rem 0;
-  }
-  
-  .processes-item i, .resources-items i {
-    color: #ff6a76;
-    font-size: 2.5rem;
-  }
-
-  .processes-list, .resources-list {
-    text-align: left;
-  }
-
-  /* Resources */
-  #resources-page {
-    background-color: #4570b4;
 }
 
-  .resources-heading {
-    padding-top: 1.5em;
-    color: white;
-  }
-
-  .resources-item {
-    width: 25%;
-    background-color: white;
+.section-title {
+    font-size: 3rem;
     text-align: center;
-    margin: 2.5rem 1.5rem;
-    padding: 2em;
-    color: #4570b4;
-    border-radius: 25px;
-  }
+}
+
+.goal-title, .benefit-title, .goal, .benefit {
+    text-align: center;
+}
+
+.goal-title, .benefit-title, .processes-title, .measurements-title {
+    font-size: 2.5rem;
+    margin-bottom: 0.5em;
+}
+
+.processes-title, .measurements-title {
+    margin-left: 1.95em;
+}
+
+.processes, .measurements {
+    margin-left: 5em;
+}
+
+.process-title, .measurement-title {
+    font-size: 1.7rem;
+}
+
+.process-list-item, .measurement-list-item {
+    margin: 0.5em 0 2em 1em;
+    font-size: 1.2rem;
+}
