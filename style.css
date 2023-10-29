@@ -165,11 +165,11 @@
 
 /* Processes*/
 
-#employee-satisfaction, #resources, #customer-satisfaction {
+#employee-satisfaction, #resources, #customer-satisfaction, #responsiveness, #quality {
     margin-top: 7em;
 }
 
-#employee-satisfaction p, #resources p, #customer-satisfaction p{
+#employee-satisfaction p, #resources p, #customer-satisfaction p, #responsiveness p, #quality p {
     font-size: 1.2rem;
 }
 
