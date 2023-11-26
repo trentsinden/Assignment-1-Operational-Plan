@@ -67,6 +67,17 @@
 
 /* INTRODUCTION */
 
+#intro-video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+video {
+    border: 10px solid #4570b4;
+}
+
 #intro-page {
     display: flex;
     justify-content: center;
